@@ -1,0 +1,12 @@
+version: 2
+
+sources:
+  - name: bronze
+    database: SAAS_ANALYTICS
+    schema: BRONZE
+
+    tables:
+      - name: customers
+      - name: subscriptions
+      - name: invoices
+      - name: subscription_events
