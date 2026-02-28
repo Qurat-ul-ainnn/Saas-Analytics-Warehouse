@@ -9,7 +9,7 @@ The primary goal is to provide finance and growth teams with a "single source of
 
 ## 🏗️ Architecture & Data Modeling
 
-
+![SaaS Analytics Medallion Architecture](https://github.com/Qurat-ul-ainnn/Saas-Analytics-Warehouse/blob/main/arch.png?raw=true)
 
 ### 1. The Medallion Layers
 * **Bronze (Raw):** Ingested raw JSON/CSV data from SaaS billing systems into Snowflake landing tables.
